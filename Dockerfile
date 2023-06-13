@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.9-slim
 
 EXPOSE 5000
 # Copie les fichiers de l'application dans le conteneur
