@@ -1,7 +1,7 @@
 name: eval build
 
 on:
-  push:
+  push: 
     branches: [ "main" ] 
     paths:
       - ".eval/**"
