@@ -6,7 +6,7 @@ on:
     paths:
       - ".github/**"
 
-jobs: 
+jobs:
   build:
     runs-on: ubuntu-latest
     permissions: write-all
