@@ -12,7 +12,7 @@ jobs:
     permissions: write-all
     env:
       REGISTRY: ghcr.io
-      IMAGE_NAME: "eval_skhedim" 
+      IMAGE_NAME: "eval_skhedim"  
       ACTOR: "yuudamon"
 
     steps:
