@@ -1,13 +1,13 @@
 name: eval build
 
 on:
-  push: 
-    branches: [ "main" ] 
+  push:
+    branches: [ "main" ]
     paths-ignore:
-      - ".github/**"
+      ".github/**"
 
 jobs:
-  build: 
+  build:
     runs-on: ubuntu-latest
     permissions: write-all
     env:
@@ -31,4 +31,5 @@ jobs:
       with:
         context: eval
         push: true
-        tags: ${{ env.REGISTRY }}/${{ env.ACTOR }}/${{ env.IMAGE_NAME }}-eval:1.0.0 
+        tags: ${{ env.REGISTRY }}/${{ env.ACTOR }}/${{ env.IMAGE_NAME }}-eval:1.0.0
+
