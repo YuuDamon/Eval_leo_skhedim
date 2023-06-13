@@ -32,4 +32,3 @@ jobs:
         context: eval
         push: true
         tags: ${{ env.REGISTRY }}/${{ env.ACTOR }}/${{ env.IMAGE_NAME }}-eval:1.0.0
-        
