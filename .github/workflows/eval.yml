@@ -3,7 +3,7 @@ name: eval build
 on:
   push:
     branches: [ "main" ]
-    paths-ignore:
+    paths:
       - ".github/**"
 
 jobs:
@@ -12,8 +12,8 @@ jobs:
     permissions: write-all
     env:
       REGISTRY: ghcr.io
-      IMAGE_NAME: "cloud_native_bakowski_maximilien"
-      ACTOR: "symilian8876"
+      IMAGE_NAME: "eval_skhedim"
+      ACTOR: "yuudamon"
 
     steps:
     - name: Checkout the code
